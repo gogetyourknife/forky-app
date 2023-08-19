@@ -4,12 +4,18 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gogetyourknife/forky-app.git"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
+    "gh-pages": "^6.0.0",
     "parcel": "^2.9.3"
   },
   "dependencies": {
